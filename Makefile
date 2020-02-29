@@ -8,7 +8,8 @@ ccfiles = $(wildcard *.cc)
 objfiles = $(patsubst %.cc, %.o, $(ccfiles))
 
 cxx = g++
-cxxflags = -Wc++11-extensions
+cxxflags = -std=c++14
+# -Wc++11-extensions
 
 .PHONY: all clean
 

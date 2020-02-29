@@ -8,17 +8,24 @@ using namespace std;
     first in, last out
     last in, first out
     add to top (push_back) and remove from top (pop_back)
+
+    size()
+    empty()
+    top()
+    push() add element at top of stack with push_back
+    pop()
 */
 
 int main() {
   stack<int> s;
+  //std::stack<int, std::deque<int> > ds; // build a stack using deque (default) as underlying container, ie. stack = a restricted deque
 
   // push insertion O(1)
-  s.push(40);
+  s.push(40); // first in, last out
   s.push(50);
   s.push(25);
   s.push(85);
-  s.push(1);
+  s.push(1); // last in, first out
 
   // size
   cout << "Size: " << s.size() << endl; // 5

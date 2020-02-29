@@ -11,6 +11,17 @@ using namespace std;
 
 int main() {
 
+  // declare and init using initializer_list
+  set<int> s2 = {10, 10, 10, 20, 20, 30, 1, 2, 3, 90, 4, 5};
+
+  // iterate // 1 2 3 4 5 10 20 30 90 
+  for (int e : s2) {
+    cout << e << " ";
+  }
+  cout << endl;
+
+  // ---
+
   // declare and init
   set<int> s;
 
@@ -52,7 +63,7 @@ int main() {
 
   // get last
   itr = s.end();
-  itr--; // or prev(itr)
+  itr--;                                 // or prev(itr)
   cout << "Last: " << (int)*itr << endl; // 200
 
   // get first
