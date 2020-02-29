@@ -18,6 +18,7 @@ int main() {
   s.insert(30);
   s.insert(100);
   s.insert(70);
+  s.insert(70); // key is not duplicated since set has unique keys
   s.insert(2);
   s.insert(200);
 
