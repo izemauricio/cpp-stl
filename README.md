@@ -1,5 +1,5 @@
 # cppstl
-C++ STL practices
+c-plus-plus stl practices
 
 # set
 
