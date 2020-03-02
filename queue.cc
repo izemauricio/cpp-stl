@@ -8,6 +8,7 @@ using namespace std;
     fifo first in, first out
     lilo last in, last out
     insert at back (push_back) and removed form front (pop_front)
+    queue: pushback+popfront ou pushfront+popback
     there is no top() in queue, only front() and back()
     push at end of queue
 

@@ -8,6 +8,7 @@ using namespace std;
     first in, last out
     last in, first out
     add to top (push_back) and remove from top (pop_back)
+    stack: push_front+pop_front ou push_back+pop_back
 
     size()
     empty()

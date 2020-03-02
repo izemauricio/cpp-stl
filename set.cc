@@ -11,7 +11,7 @@ using namespace std;
 
 int main() {
 
-  // declare and init using initializer_list
+  // declare and init using initializer_list (C++14)
   set<int> s2 = {10, 10, 10, 20, 20, 30, 1, 2, 3, 90, 4, 5};
 
   // iterate // 1 2 3 4 5 10 20 30 90 
